@@ -9,3 +9,5 @@ _start:
 	
 	ldr r2, [r0] @ Read switches
 	str r2, [r1] @ Write this value to LEDs output
+	
+	bal _start @ Keep looping to update the LEDs as per Switches
