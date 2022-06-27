@@ -5,3 +5,14 @@ The projects in this folder are based on tutorials in the playlist https://youtu
 <br>
 
 Code is tested on the following emulator : https://cpulator.01xz.net/?sys=arm-de1soc
+
+<br>
+
+hello.s is tested on Qemu as ARM emulator. Will also run on native Raspberry Pi running linux. Type these commands :
+
+<br>
+
+as hello.s -o hello.o <br>
+ld hello.o -o hello <br>
+./hello
+
