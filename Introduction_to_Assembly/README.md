@@ -16,3 +16,6 @@ as hello.s -o hello.o <br>
 ld hello.o -o hello <br>
 ./hello
 
+<br><br>
+## Debugging hello.s using GDB
+![alt text](https://github.com/rstar900/ARM-Assembly/blob/main/hello_s_rpi.png?raw=true)
